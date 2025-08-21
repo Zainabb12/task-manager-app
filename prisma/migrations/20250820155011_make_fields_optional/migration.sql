@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Task" ADD COLUMN "dueDate" DATETIME;
+ALTER TABLE "Task" ADD COLUMN "priority" TEXT;
+ALTER TABLE "Task" ADD COLUMN "status" TEXT;
+ALTER TABLE "Task" ADD COLUMN "userId" INTEGER;
