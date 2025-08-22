@@ -11,10 +11,11 @@ Features:
 ---
 
 
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./Screenshots/Home-page.png)
+![Home Page](./Screenshots/Home-Page.png)
 
 ### 📋 Task Dashboard
 ![Task Dashboard](./Screenshots/task-dashboard.png)
