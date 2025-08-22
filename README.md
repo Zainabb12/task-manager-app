@@ -15,7 +15,10 @@ Features:
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./Screenshots/Home-Page.png)
+### ![Home Page](./Screenshots/Home-Page.png)
+![Home Page](https://github.com/zainab12/task-manager-app/blob/main/Screenshots/Home-Page.png)
+
+
 
 ### 📋 Task Dashboard
 ![Task Dashboard](./Screenshots/task-dashboard.png)
