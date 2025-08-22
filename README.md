@@ -6,7 +6,7 @@ Features:
 - ✅ Edit tasks
 - ✅ Delete tasks
 - ✅ Task detail page
-- ✅ Status & description management
+- ✅ Status & description management 
 
 ---
 
