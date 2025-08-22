@@ -10,9 +10,24 @@ Features:
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-cd REPO_NAME
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./Screenshots/Home-page.png)
+
+### 📋 Task Dashboard
+![Task Dashboard](./Screenshots/task-dashboard.png)
+
+### ➕ Adding a Task
+![Adding Task](./Screenshots/Adding-task.png)
+
+### ✅ After Creating a Task
+![After Creating Task](./Screenshots/after-creating-task.png)
+
+### 🔎 Task Detail Page
+![Task Detail](./Screenshots/task-detail.png)
+
+### ✏️ Edit Task
+![Edit Task](./Screenshots/edit-task.png)
+
