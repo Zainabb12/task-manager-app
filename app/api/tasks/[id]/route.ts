@@ -41,20 +41,7 @@ export async function PUT(
   }
 }
 
-// DELETE task
-// export async function DELETE(
-//   request: Request,
-//   { params }: { params: { id: string } }
-// ) {
-//   try {
-//     await prisma.task.delete({
-//       where: { id: Number(params.id) },
-//     });
-//     return NextResponse.json({ message: "Task deleted" });
-//   } catch (error: any) {
-//     return NextResponse.json({ error: error.message }, { status: 500 });
-//   }
-// }
+
 export async function DELETE(
   request: Request,
   { params }: { params: { id: string } }
@@ -76,88 +63,3 @@ export async function DELETE(
 
 
 
-// import { NextResponse } from "next/server";
-// import { prisma } from "@/lib/prisma";
-
-// // // GET a single task
-// // export async function GET(
-// //   request: Request,
-// //   { params }: { params: { id: string } }
-// // ) {
-// //   try {
-// //     const task = await prisma.task.findUnique({
-// //       where: { id: Number(params.id) },
-// //     });
-
-// //     if (!task) {
-// //       return NextResponse.json({ error: "Task not found" }, { status: 404 });
-// //     }
-
-// //     return NextResponse.json(task);
-// //   } catch (error) {
-// //     console.error("GET /api/tasks/[id] error:", error);
-// //     return NextResponse.json({ error: "Failed to fetch task" }, { status: 500 });
-// //   }
-// // }
-
-// export async function GET(
-//   request: Request,
-//   { params }: { params: { id: string } }
-// ) {
-//   try {
-//     const task = await prisma.task.findUnique({
-//       where: { id: Number(params.id) },
-//     });
-
-//     if (!task) {
-//       return NextResponse.json({ error: "Task not found" }, { status: 404 });
-//     }
-
-//     return NextResponse.json(task);
-//   } catch (error: any) {
-//     console.error("❌ Prisma error in GET /api/tasks/[id]:", error.message, error);
-//     return NextResponse.json(
-//       { error: "Failed to fetch task", details: error.message },
-//       { status: 500 }
-//     );
-//   }
-// }
-
-
-// // UPDATE a task
-// export async function PUT(
-//   request: Request,
-//   { params }: { params: { id: string } }
-// ) {
-//   try {
-//     const body = await request.json();
-//     const { title, description, status } = body;
-
-//     const updated = await prisma.task.update({
-//       where: { id: Number(params.id) },
-//       data: { title, description, status },
-//     });
-
-//     return NextResponse.json(updated);
-//   } catch (error) {
-//     console.error("PUT /api/tasks/[id] error:", error);
-//     return NextResponse.json({ error: "Failed to update task" }, { status: 500 });
-//   }
-// }
-
-// // DELETE a task
-// export async function DELETE(
-//   request: Request,
-//   { params }: { params: { id: string } }
-// ) {
-//   try {
-//     await prisma.task.delete({
-//       where: { id: Number(params.id) },
-//     });
-
-//     return NextResponse.json({ message: "Task deleted" });
-//   } catch (error) {
-//     console.error("DELETE /api/tasks/[id] error:", error);
-//     return NextResponse.json({ error: "Failed to delete task" }, { status: 500 });
-//   }
-// }

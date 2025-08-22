@@ -2,49 +2,6 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 
 
-// export default async function TasksPage() {
-//   const res = await fetch("http://localhost:3000/api/tasks", { cache: "no-store" });
-//   const tasks = await res.json();
-
-//   return (
-//     <div>
-//       <h1 className="text-xl font-bold">Tasks</h1>
-//       <ul>
-//         {tasks.map((task: any) => (
-//           <li key={task.id} className="p-2 border-b">
-//             <Link href={`/tasks/${task.id}`}>{task.title}</Link>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-
-// export default async function TasksPage() {
-//   const tasks = await prisma.task.findMany();
-
-//   return (
-//     <div className="p-6">
-//       <h1 className="text-2xl font-bold">Tasks Dashboard</h1>
-//       <Link href="/tasks/new" className="text-blue-500 underline">
-//         + Add New Task
-//       </Link>
-
-//       <ul className="mt-4 space-y-2">
-//         {tasks.map((task) => (
-//           <li key={task.id} className="border p-2 rounded">
-//             <Link href={`/tasks/${task.id}`}>
-//               <div className="font-semibold">{task.title}</div>
-//               <div className="text-sm text-gray-600">{task.description}</div>
-//               <div className="text-sm">Status: {task.status}</div>
-//             </Link>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
 
 
 
