@@ -1,29 +1,4 @@
-// import { NextResponse } from "next/server";
-// import { prisma } from "@/lib/prisma";
 
-// export async function GET() {
-//   const tasks = await prisma.task.findMany();
-//   return NextResponse.json(tasks);
-// }
-
-// export async function POST(req: Request) {
-//   const body = await req.json();
-//   const { title, description, status } = body;
-
-//   const newTask = await prisma.task.create({
-//   data: {
-//     title,
-//     description,
-//     status,
-//     dueDate: new Date(),       // or take from request
-//     priority: "Medium",        // default value
-//     userId: 1,                 // hardcode or take from logged-in user
-//   },
-// });
-
-// }
-
-// //...................
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
