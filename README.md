@@ -6,32 +6,17 @@ Features:
 - ✅ Edit tasks
 - ✅ Delete tasks
 - ✅ Task detail page
-- ✅ Status & description management 
+- ✅ Status & description management
 
 ---
 
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Zainabb12/task-manager-app.git
+cd task-manager-app
 
 
-## 📸 Screenshots
 
-### 🏠 Home Page
-### ![Home Page](./Screenshots/Home-Page.png)
-![Home Page](https://github.com/zainab12/task-manager-app/blob/main/Screenshots/Home-Page.png)
-
-
-
-### 📋 Task Dashboard
-![Task Dashboard](./Screenshots/task-dashboard.png)
-
-### ➕ Adding a Task
-![Adding Task](./Screenshots/Adding-task.png)
-
-### ✅ After Creating a Task
-![After Creating Task](./Screenshots/after-creating-task.png)
-
-### 🔎 Task Detail Page
-![Task Detail](./Screenshots/task-detail.png)
-
-### ✏️ Edit Task
-![Edit Task](./Screenshots/edit-task.png)
 
